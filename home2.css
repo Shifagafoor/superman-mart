@@ -1,0 +1,99 @@
+/* Reset some default styles to ensure consistent rendering */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color and text color to the body */
+body {
+    background-color: #f0f0f0;
+    color: #333333;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color: #007BFF;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+#logo img {
+    max-width: 100px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Style the search bar */
+#search input[type="text"] {
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+}
+
+#search button {
+    background-color: #0056b3;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+/* Style the hero section */
+#hero {
+    text-align: center;
+    padding: 40px;
+    background-image: url('back home.jpg');
+    background-size: cover;
+    color: #fff;
+}
+
+#hero h1 {
+    color: #8c12ff;
+    font-size:70px;
+    margin: 20px 0;
+}
+
+#hero p {   
+    margin: 20px 0;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #b33000;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #09ee23;
+}
+
+/* Add styles for other sections as needed */
+
+/* Add styles for the footer */
+
+footer  {
+    color: #fff;
+    text-align: center;
+}
